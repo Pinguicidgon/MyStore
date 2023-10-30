@@ -23,28 +23,39 @@ productos al carrito desde la tienda. Finalmente, puede crear una orden con los 
 
 .Código
 Producto producto1 = new Producto(1, "Camiseta", 15.99, "Camiseta de algodón");
+
 Producto producto2 = new Producto(2, "Pantalón", 29.99, "Pantalón vaquero");
 
 Tienda tienda = new Tienda();
+
 tienda.agregarProducto(producto1);
+
 tienda.agregarProducto(producto2);
 
 Carrito carrito = new Carrito();
+
 carrito.agregarProducto(producto1);
+
 carrito.agregarProducto(producto2);
 
 Orden orden = new Orden(carrito.obtenerProductosEnCarrito());
+
 double total = orden.calcularTotal();
 
 -Dependencias
+
 La aplicación no tiene dependencias externas y solo requiere un entorno de ejecución Java (JRE).
 
 -Instalación
+
 Para instalar la aplicación, simplemente clone el repositorio y compile las clases en su entorno Java.
+
 javac *.java
 
 -Ejecución
+
 Para ejecutar la aplicación, ejecute la clase principal InformacionPrincipal.
+
 java InformacionPrincipal
 
 
