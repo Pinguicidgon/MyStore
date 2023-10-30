@@ -59,6 +59,9 @@ Para ejecutar la aplicación, ejecute la clase principal InformacionPrincipal.
 
 java InformacionPrincipal
 
+-El resultado final esperado
+![image](https://github.com/Pinguicidgon/MyStore/assets/144015906/ce342022-6b68-47fd-a516-8c584a160afc)
+
 
 # MyStore
 
