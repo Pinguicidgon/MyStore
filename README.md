@@ -8,9 +8,13 @@ productos a un carrito de compras y calcular el total de su orden.
 La aplicación consta de las siguientes clases:
 
 .Producto: Esta clase representa un producto con un id, nombre, precio y descripción.
+
 .Tienda: Esta clase representa una tienda con una lista de productos.
+
 .Carrito: Esta clase representa un carrito de compras con una lista de productos agregados al carrito.
+
 .Orden: Esta clase representa una orden con una lista de productos y un método para calcular el total de la orden.
+
 .InformacionPrincipal: Esta es la clase principal que ejecuta la aplicación.
 
 -Cómo usar
