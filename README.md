@@ -1,6 +1,7 @@
 -MyStore-
 
 -Descripción
+
 MyStore de momento es una aplicación de tienda en línea simple escrita en Java. Permite a los usuarios agregar
 productos a un carrito de compras y calcular el total de su orden.
 
